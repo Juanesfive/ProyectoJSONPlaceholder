@@ -31,11 +31,11 @@ Ingresa el número de la opción:`;
       await usuarios.modificarRespuestaUsuarios();
       break;
     case '5':
-      await usuarios.AgregarUsuarios();
+      await usuarios.AgregarInformacionUsuarios();
       break;
     case '0':
       // Aqui estoy informando que se sale del menú y se termina la ejecución
-      console.log('Saliendo del menú...');
+      console.log('Saliendo del menú, Gracias por usar el programa.');
       return;
     default:
       // Aqui estoy informando al usuario que la opción ingresada no es válida
